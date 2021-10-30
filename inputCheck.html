@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="Input check" class ="inputCheck">
+        <label for="pass" >Password (6 char min:</label>
+        <input type="password" id="password"  class="pass" name="password"  required></br>
+        <div id="passwordMessage" class="err"> </div>
+
+        <label for="pass">Repeat Password:</label>
+        <input type="password" id="passRepeat" name="password"  class="pass" required> </br>
+        <div id="repeatMessage" class="err">  </div>
+
+        <input type="submit" id="sign" value="Sign in">
+    </form>
+    
+    
+    <script src="scriptInputCheck.js"></script>
+</body>
+</html>
